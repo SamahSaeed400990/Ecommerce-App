@@ -1,0 +1,26 @@
+.Category_item{
+    background:  #fde4e4;
+    padding: 30px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.Category_item:hover{
+    transform: translateY(-15px);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    .Category_item{
+        padding: 20px 15px;
+    }
+    .Category_img img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .Category_item h6{
+        font-size: .6rem;
+    }
+}

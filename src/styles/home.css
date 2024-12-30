@@ -1,0 +1,213 @@
+.hero_content {
+    padding-top: 70px;
+  }
+  
+  .hero_title {
+    font-size: 2.5rem;
+    line-height: 55px;
+  }
+  
+  .hero_title span {
+    color: #df2020;
+  }
+  
+  .hero_content p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+  }
+  .hero_btns button{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+ 
+  .order_btn{
+    
+    background: #df2020;
+    color: #fff;
+    transition: .3s;
+  }
+  
+  .order_btn:hover {
+    background: #212245;
+  }
+  
+  .order_btn:hover a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .all_food-btn{
+    background:  transparent;
+    border: 1px solid #df2020 !important;
+  }
+  .all_food-btn a{
+    text-decoration: none;
+    color: #df2020;
+  }
+  .hero_img {
+    margin: 40px;
+  }
+  .hero_service p{
+    color: #212245;
+    font-weight: 600;
+    font-size: .9rem;
+  }
+  .shipping_icon i{
+    padding: 5px;
+    background: #df2020;
+    color: #fff;
+    border-radius: 50%;
+    font-weight:  500 !important;
+
+  }
+  .feature_subtitle{
+    color: #df2020;
+  }
+  .feature-span{
+    color: #df2020;
+  }
+  .feature_text{
+    color: #777;
+  }
+  .feature_item p{
+    color: #777;
+  }
+  .foodBtnActive{
+    background-color: #fff !important;
+    border-radius: 5px;
+    color: #df2020 !important;
+  }
+  .testy_title span{
+    color: #df2020 !important;
+  }
+  .why_testy_desc{
+    color: #777;
+    line-height: 28px;
+  }
+
+  .choose_us-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .choose_us-title i{
+    font-weight: 500 !important;
+    color: #df2020;
+  }
+  .choose_us-desc{
+    color: #777;
+  }
+  .testmonial_subtitle{
+    color: #df2020;
+  }
+  .testmonial_title span{
+    color: #df2020;
+  }
+  .testmonial_desc{
+    color: #777;
+    line-height: 30px;
+  }
+  .food_category{
+    background: #df2020;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+  }
+  .food_category button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+  }
+  .food_category button img{
+    width: 20px;
+    height: 20px;
+
+  }
+
+
+  
+  @media only screen and (max-width: 576px) {
+    .hero_content{
+      text-align: center;
+    }
+    
+   .hero_btns{
+    justify-content: center;
+     
+   }
+   
+   .hero_service{
+    justify-content: center;
+   }
+   .why_choose-us{
+    padding-top: 0 !important;
+   }
+   
+  }
+  @media only screen and (max-width: 768px) {
+    .hero_content h5 {
+      font-size: 1rem;
+    }
+  
+    .hero_content p {
+      font-size: 0.8rem;
+      line-height: 25px;
+    }
+  
+    .hero_title {
+      font-size: 1.5rem;
+      line-height: 40px;
+    }
+    .hero_btns button{
+      padding: 5px 15px;
+      font-size: .7rem;
+     }
+     .hero_service p{
+       font-size: .7rem !important;
+     }
+     .feature_item h5{
+       font-size: .9rem;
+     }
+     .feature_item p{
+      margin-bottom: 0;
+      font-size: .8rem;
+     }
+     .feature_subtitle{
+      font-size: 1rem;
+     }
+     .feature_text{
+      font-size: .8rem;
+      margin-bottom: 0;
+     }
+     .food_category{
+      padding: 15px;
+     }
+     .food_category button{
+      padding: 5px 15px;
+      font-size: .7rem;
+     }
+     .why_testy_desc{
+      font-size: .8rem;
+      margin-bottom: 0;
+     }
+     .choose_us-title{
+      font-size: .8rem;
+     }
+     .choose_us-desc{
+      font-size: .7rem;
+     }
+     .testmonial_subtitle{
+      font-size: 1rem;
+     }
+     .testmonial_desc{
+      font-size: .8rem;
+     }
+     
+  }
+  
