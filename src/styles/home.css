@@ -1,3 +1,4 @@
+
 .hero_content {
     padding-top: 70px;
   }
@@ -148,6 +149,19 @@
    .why_choose-us{
     padding-top: 0 !important;
    }
+   
+   .all_btn button{
+       padding: 0px;
+   }
+   .home{
+    overflow: hidden;
+  }
+  .food_category{
+    display: flex;
+   
+    align-items: center;
+    gap:1;
+  }
    
   }
   @media only screen and (max-width: 768px) {

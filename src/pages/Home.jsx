@@ -69,8 +69,8 @@ const Home = () => {
 
 
   return <>
-   <Helmet title='Home'>
-      <section>
+   <Helmet title='Home' >
+      <section className='home'>
         <Container>
         <Row>
           <Col lg='6' md='6'>
@@ -102,10 +102,10 @@ const Home = () => {
         </Row>
         </Container>
       </section>
-      <section>
+      <section className='home'>
         <Category/>
       </section>
-      <section>
+      <section className='home'>
         <Container>
           <Row>
             <Col lg='12' className='text-center'>
@@ -134,14 +134,14 @@ const Home = () => {
      
         </Container>
       </section>
-      <section>
+      <section className='home'>
         <Container>
           <Row>
             <Col lg='12' className='text-center' >
               <h2>Popular Foods</h2>
             </Col>
             <Col lg='12'>
-              <div className="food_category d-flex justify-content-center align-items-center gap-4">
+              <div className="food_category d-flex justify-content-center align-items-center gap-2">
                 <button className={`all_btn ${category === 'ALL'? 'foodBtnActive': ''}`}  onClick={()=>setCategory('All')}>All</button>
                 <button className={`d-flex align-items-center gap-2 ${category === 'BURGER'? 'foodBtnActive': ''} `}
                 onClick={()=>setCategory('BURGER')}><img src={foodCategoryImg1} alt="foodCategoryImg1" />Burger</button>
@@ -163,7 +163,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className='why_choose-us'>
+      <section className='why_choose-us home'>
         <Container>
           <Row>
             <Col lg='6' md='6'>
@@ -201,7 +201,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className='pt-0'>
+      <section className='pt-0 home'>
         <Container >
           <Row>
             <Col lg='12' className='text-center'>
@@ -217,7 +217,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section>
+      <section className='home'>
         <Container>
           <Row>
             
