@@ -16,3 +16,24 @@
 .related_product-title{
     font-size: 1.3rem;
 }
+@media only screen and (max-width:768px){
+    .product_title{
+        font-size: 1.2rem;
+    }
+    
+      .product_price,
+      .product_price span {
+        font-size: 1rem;
+      }
+      .category,
+      .category span {
+        font-size: 0.8rem !important;
+      }
+     .tabs{
+        margin-top: 30px;
+     }
+     .tabs h6{
+        font-size: .9rem;
+     }
+    
+}

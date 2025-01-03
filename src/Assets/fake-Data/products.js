@@ -26,7 +26,7 @@ import product_06_image_03 from "../images/bread(3).png";
 const products = [
   {
     id: "01",
-    title: "Chicken Burger",
+    title: "Chicken",
     price: 24.0,
     image01: product_01_image_01,
     image02: product_01_image_02,
@@ -38,7 +38,7 @@ const products = [
 
   {
     id: "02",
-    title: "Vegetarian Pizza",
+    title: "Vegetarian",
     price: 115.0,
     image01: product_02_image_01,
     image02: product_02_image_02,
@@ -50,7 +50,7 @@ const products = [
 
   {
     id: "03",
-    title: "Double Cheese Margherita",
+    title: "Margherita",
     price: 110.0,
     image01: product_03_image_01,
     image02: product_03_image_02,
@@ -62,7 +62,7 @@ const products = [
 
   {
     id: "04",
-    title: "Maxican Green Wave",
+    title: "Maxican Green",
     price: 110.0,
     image01: product_04_image_01,
     image02: product_04_image_02,
@@ -85,7 +85,7 @@ const products = [
   },
   {
     id: "06",
-    title: "Royal Cheese Burger",
+    title: "Cheese Burger",
     price: 24.0,
     image01: product_01_image_01,
     image02: product_01_image_02,
@@ -109,7 +109,7 @@ const products = [
 
   {
     id: "08",
-    title: "Thin Cheese Pizza",
+    title: "Cheese Pizza",
     price: 110.0,
     image01: product_03_image_02,
     image02: product_03_image_01,
@@ -121,7 +121,7 @@ const products = [
 
   {
     id: "09",
-    title: "Pizza With Mushroom",
+    title: "Mushroom",
     price: 110.0,
     image01: product_04_image_02,
     image02: product_04_image_01,
@@ -133,7 +133,7 @@ const products = [
 
   {
     id: "10",
-    title: "Classic Hamburger",
+    title: "Hamburger",
     price: 24.0,
     image01: product_05_image_02,
     image02: product_05_image_01,

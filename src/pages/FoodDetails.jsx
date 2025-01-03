@@ -6,10 +6,13 @@ import CommonSection from '../Components/UI/common-section/CommonSection'
 import { Container , Row , Col } from 'reactstrap'
 import { useDispatch } from "react-redux";
 import { cartActions } from "../store/Shopping/cartSlice";
-// import { useSelector } from "react-redux";
+ 
 import ProductCard from "../Components/UI/productCard/ProductCard"
 const FoodDetails = () => {
   const [tab,setTab] = useState('desc')
+  const [enteredName,setEnteredName] =useState('')
+  const [enteredEmail,setEnteredEmail] =useState('')
+  const [reviewMsg,setReviewMsg] =useState('')
   const {id} = useParams()
   const dispatch = useDispatch();
  
@@ -17,6 +20,9 @@ const FoodDetails = () => {
   const [reviewImg,setReviewImg] = useState(product.image01)
   const{title , price , desc ,category ,image01}=product
   const relatedProduct = products.filter((item) => category === item.category);
+  const submittedHandler = e=>{
+    e.preventDefault()
+  }
   useEffect(() => {
     setReviewImg(product.image01);
     
@@ -100,15 +106,15 @@ const FoodDetails = () => {
                   <p className='user_email'>example@gmail.com</p>
                   <p className='text_review'>great</p>
                 </div>
-                <form className='form mb-3'>
+                <form className='form mb-3' onClick={submittedHandler}>
                   <div className='form_group'>
-                    <input type="text" placeholder='Enter your Name'/>
+                    <input type="text" required placeholder='Enter your Name' value={enteredName} onChange={e=>setEnteredName(e.target.value)}/>
                   </div>
                   <div  className='form_group'>
-                    <input type="email" placeholder='Enter your Email'/>
+                    <input type="email" required placeholder='Enter your Email' value={enteredEmail} onChange={e=>setEnteredEmail(e.target.value)}/>
                   </div>
                   <div  className='form_group'>
-                    <textarea type="text" rows={6} placeholder='Enter your Review'></textarea>
+                    <textarea type="text" required rows={6} value={reviewMsg} placeholder='Enter your Review' onChange={e=>setReviewMsg(e.target.value)}></textarea>
                   </div>
                   <button type='submit' className='addToCart_btn'>Submit</button>
                 </form>
