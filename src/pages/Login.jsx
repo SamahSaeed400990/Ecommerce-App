@@ -12,13 +12,14 @@ const Login = () => {
         <Container>
           <Row>
             <Col lg='6' md='6' sm='12' className='m-auto text-center'>
-            <form  className='form-control mb-5'>
+            <form  className='form mb-5'>
               <div className="form_group">
                 <input type="email" placeholder='Email' required />
               </div>
               <div className="form_group">
                 <input type="password" placeholder='Password' required />
               </div>
+              <button type='submit' className='addToCart_btn'>Login</button>
 
             </form>
             <Link to='/register'>Already have an account? Create an acount</Link>
