@@ -79,6 +79,7 @@
     padding: 5px 30px;
     background: #df2020;
     border-radius: 5px;
+     margin-left: -40px;
   }
   .newsletter span i{
     color: #fff;
@@ -141,10 +142,7 @@
     }
   }
   @media only screen and (max-width: 576px){
-    .social_links{
-      justify-content: center;
-
-    }
+     
     .social_links p{
       font-size: .8rem;
     }
